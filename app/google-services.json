@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "631934211971",
+    "firebase_url": "https://ngo-update.firebaseio.com",
+    "project_id": "ngo-update",
+    "storage_bucket": "ngo-update.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631934211971:android:eff60df54c589aa4",
+        "android_client_info": {
+          "package_name": "com.example.karan.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631934211971-2n5g9vprq0s23oli3trqi8fkq320ouhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karan.myapplication",
+            "certificate_hash": "05a2a788fc450482b6869ed88daa07403428a9e6"
+          }
+        },
+        {
+          "client_id": "631934211971-0td1al74ej50bcot3plm5pb6lt0boeic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4NFkgFtryNyeJar7drIQS_7Nil5JnfgA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631934211971-0td1al74ej50bcot3plm5pb6lt0boeic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
