@@ -4,28 +4,110 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:orientation="vertical"
     tools:context=".Registration">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
 
+        <EditText
+            android:id="@+id/useremail"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/confirmpassword"
+            android:layout_marginTop="141dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_alignLeft="@+id/confirmpassword" />
 
 
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/useremail"
+            android:layout_marginTop="237dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_alignLeft="@+id/useremail" />
+
+        <EditText
+            android:id="@+id/confirmpassword"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="28dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="28dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="158dp"
+            android:layout_height="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="@string/registerHome" />
 
 
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="34dp"
+            android:text="Register" />
 
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/useremail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="51dp"
+            android:layout_marginStart="51dp"
+            android:text="Email-ID" />
 
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/password"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:text="Password" />
 
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="190dp"
+            android:text="Confirm Password" />
 
-
-
-
-
-
-
-
-
-    </LinearLayout>
-    </android.support.constraint.ConstraintLayout>
+        <Spinner
+            android:id="@+id/rolespinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="119dp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

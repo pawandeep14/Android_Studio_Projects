@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/username"
+                    android:id="@+id/useremail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
@@ -45,13 +45,7 @@
                     android:maxLines="1"
                     android:singleLine="true" />
 
-                <Spinner
-                    android:id="@+id/email_domains"
-                    android:layout_width="189dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
 
-                    />
 
             </android.support.design.widget.TextInputLayout>
 
