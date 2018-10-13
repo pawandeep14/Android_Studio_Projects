@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_NGO"
+    tools:layout_editor_absoluteY="25dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@drawable/homeback"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="500dp"
+            android:layout_height="84dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="483dp"
+            app:srcCompat="@android:color/holo_blue_bright" />
+
+        <ImageButton
+            android:id="@+id/createevent"
+            android:layout_width="222dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editdetails"
+            android:layout_marginTop="205dp"
+            app:srcCompat="@drawable/create_event" />
+
+        <ImageButton
+            android:id="@+id/editdetails"
+            android:layout_width="221dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="217dp"
+            app:srcCompat="@drawable/edit_details" />
+
+        <ImageButton
+            android:id="@+id/viewactivists"
+            android:layout_width="327dp"
+            android:layout_height="82dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="102dp"
+            app:srcCompat="@drawable/view_activist_detail" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
